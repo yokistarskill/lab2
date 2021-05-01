@@ -1,0 +1,165 @@
+@import 'catalog.css';
+@import 'contact.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #917154;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+}
+.wrap-header{
+    height: 100px;
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+}
+.logo{
+    flex: 1;
+}
+#logo-header{
+   height: 100px;
+}
+.menu-desktop{
+    line-height: 100px;
+    flex: 3;
+    justify-content: center;
+    display: flex;
+}
+#position-menu+#position-menu{
+    margin-left: 30px;
+}
+#href-menu{
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+}
+#href-menu:hover{
+    color: rgb(92, 38, 38);
+
+}
+.search{
+    display: flex;
+    flex: 1;
+    width: 100px;
+    justify-content: flex-end;
+}
+
+.content{
+    background-image: url(img/fon.jpg);
+    background-size: cover;
+    height: 529px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#menu{
+    display: none;
+}
+#title-content-text{
+    letter-spacing: 4px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.why-for-us{
+    margin-top: 550px;
+}
+#why-for-us-text{
+    text-align: center;
+}
+.card{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 10px;
+    justify-content: center;
+}
+#ph-card-pizza{
+    margin: auto;
+    display: flex;
+    max-width: 100%;
+}
+.card-goods{
+    background-color: white;
+    
+}
+#card-text-1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 18px;
+    color: tomato;
+}
+#card-text-2{
+    width: 90%;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #000;
+}
+#btn{
+    width: 250px;
+    height: 50px;
+    background-color: #C26464;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#btn:hover{
+    background-color: #991414;
+}
+.sliders{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+#btn-form{
+    width: 150px;
+    height: 35px;
+    background: white;
+    color: #D14747;
+    border: none;
+    font-size: 18px;
+}
+form{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+footer{
+    background-color: black;
+}
+.footer-wrap{
+    max-width: 1600px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.menu-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+}
+.sliders-footer{
+    margin-top: 40px;
+}
+#type-input{
+    padding: 5px;
+    text-align: center;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="images/search-logo.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <title>Лабораторна робота №1</title>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="wrap-header">
+                <div class="logo">
+                    <img id="logo-header" src="images/logo-removebg-preview.png" alt="logo-yoki-food">
+                </div>
+                <div class="menu-desktop">
+                    <span id="position-menu"><a id="href-menu" href="index.html">Головна</a></span>
+                    <span id="position-menu"><a id="href-menu" href="catalog.html">Новини</a></span>
+                    <span id="position-menu"><a id="href-menu" href="">Бронювання</a></span>
+                    <span id="position-menu"><a id="href-menu" href="contact.html">Контакти</a></span>
+                </div>
+                <div class="search">
+                    <img id="search" src="images/search-logo.png" alt="logo-search">
+                    <a href="#top"><img id="menu" src="images/menu.png" alt=""></a>
+                </div>
+            </div>
+        </header>
+        <h2 id="contact-title">Контакти</h2>
+        <div class="contact">
+            
+            <div class="contact-type">
+                <div class="contact-text">
+                    <p>Ви можете нас знайти за контактами: 
+                        вул. Ліпчинського 47, м. Київ
+                    </p>
+                    <p id="mobile-phone">
+                        Мобільний телефон: +380959494943. <br>
+                        Email: yokifood@gmail.com
+                    </p>
+                    <p id="impotant-contact">БУДЕМО РАДІ ВАС БАЧИТИ</p>
+                </div>
+            </div>
+            <div class="content-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1269.6169728717593!2d30.462199126700163!3d50.473988321583164!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc5c64ec5013%3A0xdcb7286ccaf8d199!2sGrunMaster!5e0!3m2!1sru!2sua!4v1615746502276!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-wrap">
+                <div class="forms">
+                    <form id="form">
+                        <p>Форма для бронювання столиків:</p>
+                        <p>Ваше ім’я:</p>
+                        <input id="type-input"  type="text" name="name" placeholder="Наприклад, Іван" required /><br />
+                        <p>Ваш мобільний телефон:</p>
+                        <input type="text" name="phone" id="type-input" placeholder="Ваш телефон" required /><br />
+                        <p>Виберіть час:</p>
+                        <input type="time" name="text" placeholder="time">
+                        <p></p>
+                        <button id="btn-form">забронювати</button>
+                    </form>
+                </div>
+                <div class="menu-footer">
+                    <a name="top"></a>
+                    <span><a id="href-menu" href="index.html">Головна</a></span>
+                    <span><a id="href-menu" href="catalog.html">Новини</a></span>
+                    <span><a id="href-menu" href="">Бронювання</a></span>
+                    <span><a id="href-menu" href="contact.html">Контакти</a></span>
+                </div>
+                <div class="sliders-footer">
+                    <div class="fotorama">
+                        <img src="images/foot-slider.jpg" alt="фото страви ">
+                        <img src="images/foot-slider.jpg" alt="фото страви ">
+                        <img src="images/foot-slider.jpg" alt="фото страви ">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+@media (max-width:1125px){
+    .menu-desktop{
+        display: none;
+    }
+    #search{
+        display: none;
+    }
+    #menu{
+        display: block;
+        cursor: pointer;
+        max-width: 100px;
+    }
+}
+@media (max-width:925px){
+    .card-catalog{
+        grid-template-columns: 100%;
+    }    
+    .opus-goods {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:850px){
+    .card {
+        grid-template-columns: 45% 45%;
+        grid-row-gap: 10px;
+    }
+    .card-goods{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-wrap {
+        grid-template-columns: 100%;
+    }
+    .sliders-footer{
+        justify-content: center;
+        display: flex;
+    }
+    .contact{
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    #impotant-contact{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 550px){
+    .logo{
+        display: none;
+    }
+    .card {
+        grid-template-columns: 100%;
+    }
+    .card-goods{
+        width: 65%;
+    }
+}
